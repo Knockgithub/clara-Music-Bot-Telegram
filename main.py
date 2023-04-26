@@ -41,7 +41,7 @@ def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Github', url='https://github.com/typhonshambo/Clara-Music-Bot-Telegram'),  
+                    InlineKeyboardButton('Github', url='https://github.com/typhonshambo/clara-Music-Bot-Telegram'),  
                 ]
             ]
         )
