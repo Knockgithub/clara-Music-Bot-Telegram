@@ -34,7 +34,7 @@ def time_to_seconds(time):
 
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    darkprince = f'👋 Hello @{message.from_user.username}\n I\'m Clara, developed by Shambo, I can download songs from YouTube. Type /a song name\n e.g - `/a talking to the moon`'
+    darkprince = f'👋 Hello @{message.from_user.username}\n I\'m Tuneitbot, I can download your favourite songs. Type /a song name\n e.g - `/a talking to the moon`'
     message.reply_text(
         text=darkprince, 
         quote=False,
